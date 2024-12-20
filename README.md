@@ -90,3 +90,19 @@ pytest
 To run tests, use the following command:
 ```bash
 pytest
+```
+### Additional Notes:
+
+1. Ensure you have the necessary system dependencies installed for `dlib` and `face_recognition` to work properly.
+   - On Ubuntu, you might need to install additional packages:
+     ```bash
+     sudo apt-get install cmake
+     sudo apt-get install libopenblas-dev liblapack-dev
+     sudo apt-get install libx11-dev libgtk-3-dev
+     ```
+   - On Windows, make sure you have Visual Studio installed.
+
+2. You may need to install `cmake` and `dlib` separately if they are not included in your `requirements.txt`:
+   ```bash
+   pip install cmake
+   pip install dlib
