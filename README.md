@@ -8,26 +8,6 @@ E.D.I.T.H. (Enhanced Driver Interface for Transcendent Heuristics) is a comprehe
 - **Lane Detection:** Continuously monitors lane markings to ensure the vehicle remains within its designated lane.
 - **Safety Protocols:** On detecting drowsiness, it triggers alarms, decelerates the vehicle, and steers it to a safe stop by the side of the road.
 
-## Project Structure
-E.D.I.T.H/
-├── data/
-│   ├── training_data/
-│   └── test_data/
-├── models/
-│   ├── drowsiness_detection_model/
-│   └── lane_detection_model/
-├── src/
-│   ├── drowsiness_detection.py
-│   ├── lane_detection.py
-│   ├── main.py
-│   └── utils.py
-├── tests/
-│   ├── test_drowsiness_detection.py
-│   ├── test_lane_detection.py
-│   └── test_utils.py
-├── requirements.txt
-└── README.md
-
 ## Installation
 
 1. Clone the repository:
