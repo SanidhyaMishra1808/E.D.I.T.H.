@@ -110,17 +110,3 @@ pytest
 To run tests, use the following command:
 ```bash
 pytest
-Contributing
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-OpenCV
-Dlib
-TensorFlow/PyTorch (depending on which you use for your models)
-Any other libraries or resources you used
