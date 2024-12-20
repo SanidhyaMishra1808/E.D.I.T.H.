@@ -47,9 +47,13 @@ E.D.I.T.H. (Enhanced Driver Interface for Transcendent Heuristics) is a comprehe
 
 ## Requirements File
 
-Make sure your `requirements.txt` includes the following dependencies:
-face_recognition, opencv-python, pygame, scipy, numpy.
-
+```text
+face_recognition
+opencv-python
+pygame
+scipy
+numpy
+```
 
 ## Running the Project
 
